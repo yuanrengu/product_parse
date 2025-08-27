@@ -44,6 +44,12 @@ AB200-IO032       |        |        |         |        |        |        |      
 TX-PT-10K-V1      |        |        |         |        |        |        |      |    |    |     |    |        |        |      |        |        | PT     | 10K | V1 |    
 ```
 
+### 示例：驱动器型号和铭牌说明
+
+![SV630P 驱动器铭牌示例](pic/SV630P.png)
+
+> 以上图片用于说明 SV630P 系列的铭牌信息与型号编码位置，便于对照解析字段。
+
 ### JSON 模式
 ```bash
 python3 core.py --format json --models SV630PS2R8I XY1A-220-05KW-F
