@@ -204,6 +204,10 @@ docker run -d --name product-parser-api -p 8000:8000 product-parser
 docker run --rm product-parser python cli.py SV630PS2R8I --format json
 ```
 
+### TODO
+- 自动热加载功能
+自动监控挂载目录改动并自动重载规则的功能，这样就连 docker restart 都不用，文件一保存 API 自动加载新规则。
+
 ## 🔧 开发指南
 
 ### 代码结构
@@ -294,8 +298,6 @@ python3 cli.py --format table --models MODEL1 MODEL2 MODEL3
 <div align="center">
 
 **如果这个项目对你有帮助，请给它一个 ⭐️**
-
-Made with ❤️ by [猿人谷]
 
 </div>
 
