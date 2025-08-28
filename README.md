@@ -113,6 +113,9 @@ python3 cli.py --format json --models SV630PS2R8I XY1A-220-05KW-F
 ]
 ```
 
+### 驱动器型号与铭牌示例
+![SV630P系列](pic/SV630P.png)
+
 ## 🔌 解析器说明
 
 ### 现有解析器
